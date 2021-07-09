@@ -1,5 +1,7 @@
 # Portfolio
 
+To view the deployed site: **Link to be Added Once Deployed**
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -28,7 +28,8 @@ export default function Portfolio(){
             <h1 className='pageTitle'>Portfolio</h1>
             <Carousel style={{ 
                     minHeight: '25vh',
-                    maxWidth: '50vh'
+                    maxWidth: '100vh',
+                    marginBottom:'3rem'
                     }} className='carousel-container'>
                     {imagesPortfolio.map((data, i) =>{
                         return(
@@ -37,12 +38,18 @@ export default function Portfolio(){
                                 src={data.image}
                                 alt={data.label}
                                 style={{
-                                    width:'100%',
-                                    height: '40vh'
+                                    width:'100vh',
+                                    height: 'auto',
+                                    borderRadius:'15px'
                                 }}
                                 />
                                 <Carousel.Caption>
-                                <p className='caption'>{data.label}</p>
+                                <p className='caption' 
+                                style={{
+                                    display:'none'
+                                }}>
+                                    {data.label}
+                                </p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         )
@@ -50,12 +57,20 @@ export default function Portfolio(){
                 </Carousel>
                 {imagesPortfolio.map((data, i) =>{
                     return(
-                        <div className='project' key={i}>
-                            <h3>{data.label}</h3>
-                            <img src={data.image} alt={data.label}/>
-                            <p>{data.content}</p>
-                            <button><a href={data.githubLink}>Link to Github</a></button>
-                            <button><a href={data.deployLink}>Link to App</a></button>
+                        <div key={i} className='project-container'>
+                            <h3 style={{
+                                margin:'1rem 1rem'
+                            }}>{data.label}</h3>
+                            <div className='project'>
+                                <img src={data.image} alt={data.label} className='portfolio-image'/>
+                                <p style={{
+                                    margin: '0 1rem'
+                                }}>{data.content}</p>
+                                <div className='button-div'>
+                                <button><a href={data.githubLink}><div>Link to Github</div></a></button>
+                                <button><a href={data.deployLink}><div>Link to App</div></a></button>
+                                </div>
+                            </div>
                         </div>
                     )
                 })};

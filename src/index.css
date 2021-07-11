@@ -3,7 +3,6 @@ a{
   color: black;
 }
 
-
 .about{
   background-color: #25274D;
   height: 100vh;
@@ -224,6 +223,20 @@ span{
   height: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.overlay{
+  position: absolute;
+  padding: 25px;
+  border-radius: 25px;
+  margin: 1.5rem;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #9fb4f2
+}
+
+.resume:hover > .overlay{
+  opacity: 1;
 }
 
 @keyframes typing{

@@ -1,21 +1,47 @@
+import githublogo from '../Contact/6214513_github_logo_icon.png';
+import linkedinlogo from '../Contact/834713_linkedin_icon.png';
+
 export default function Contact(){
     return(
         <div className='contactMe'>
-            <h1>Contact Me</h1>
+            <h1 className='pageTitle'>Contact Me</h1>
             <div className='links'>
-                <p><a href='https://www.linkedin.com/in/trieule1/' target='_blank' rel='noopener noreferrer'>Link to Linkedin</a></p>
-                <p><a href='https://github.com/trieule50'target='_blank' rel='noopener noreferrer'>Link to Github</a></p>
+                <div className='links-items'>
+                    <a href='https://www.linkedin.com/in/trieule1/' target='_blank' rel='noopener noreferrer'>
+                        <img src={linkedinlogo} alt='linkedin logo' className='linkedin'/>
+                        <div className='links-title'>Link to Linkedin</div>
+                    </a>
+                </div>
+                <div className='links-items'>
+                    <a href='https://github.com/trieule50'target='_blank' rel='noopener noreferrer'>
+                        <img src={githublogo} alt='github logo' className='github'/>
+                        <div className='links-title'>Link to Github</div>
+                    </a>
+                </div>
             </div>
             <form>
                 <h3>Send me a Message</h3>
-                <label htmlFor='name'>Name:</label>
-                <input id='name' type='text'></input>
-                <label htmlFor='email'>Email:</label>
-                <input id='email' type='text'></input>
-                <label htmlFor='subject'>Subject:</label>
-                <input id='subject' type='text'></input>
-                <label htmlFor='message'>Message:</label>
-                <input id='subject' type='text'></input>
+                <div className='form-container'>
+                    <div className='form-items'>
+                        <div>
+                            <label htmlFor='name'>Name:</label>
+                            <input id='name' type='text'/>
+                        </div>
+                        <div>
+                            <label htmlFor='email'>Email:</label>
+                            <input id='email' type='text'/>
+                        </div>
+                        <div>
+                            <label htmlFor='subject'>Subject:</label>
+                            <input id='subject' type='text'/>
+                        </div>
+                    </div>
+                    <div className='form-items'>
+                        <label htmlFor='message'>Message:</label>
+                        <textarea name='message' id='message'/>
+                    </div>
+                </div>
+                <input type='submit' value='SUBMIT'/>
             </form>
         </div>
     )

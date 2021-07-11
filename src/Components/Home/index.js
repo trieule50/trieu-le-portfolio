@@ -1,7 +1,7 @@
 export default function Home(){
     return(
-        <div>
-            <h1>Builder to {'<'}Coder{'>'}</h1>
+        <div className='home'>
+            <h1 className='landingTitle'>Builder &nbsp; to &nbsp;<span> {'<'}Coder{'>'}</span></h1>
         </div>
     )
 }

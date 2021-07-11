@@ -25,7 +25,7 @@ export default function Portfolio(){
     ]
     return(
         <div className='portfolio'>
-            <h1>Portfolio</h1>
+            <h1 className='pageTitle'>Portfolio</h1>
             <Carousel style={{ 
                     minHeight: '25vh',
                     maxWidth: '50vh'

@@ -20,7 +20,7 @@ function App() {
         <Route path='/contact' exact render={()=><Contact/>}/>
         <Route path='/' exact render={()=><Home/>}/>
       </main>
-      <footer></footer>
+      <footer><p>&copy;2021, Trieu Le</p></footer>
     </div>
   );
 }

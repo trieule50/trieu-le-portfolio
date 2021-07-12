@@ -9,7 +9,7 @@ Programs Used:
 - React.js
 
 ## About Me
-Hi! I'm Trieu, a civil engineer turn software engineer. As a civil engineer, I enjoy solving problems in the most unorthodox way and creating projects that the general public uses everyday. During my time in project management, I became very passionate about technology more specifically, artificial intelligence in construction. And on May 2021, I made a decision to study software engineering from a coding bootcamp - General Assembly - in hope to make a bigger impact on society.
+Hi! I'm Trieu, a civil engineer turned software engineer. As a civil engineer, I enjoy solving problems in the most unorthodox way and creating projects that the general public uses everyday. During my time in project management, I became very passionate about technology more specifically, artificial intelligence in construction. And on May 2021, I made a decision to study software engineering from a coding bootcamp - General Assembly - in hope to make a bigger impact on society.
 
 I enjoy working with React and JavaScript! 
 

@@ -67,8 +67,8 @@ export default function Portfolio(){
                                     margin: '0 1rem'
                                 }}>{data.content}</p>
                                 <div className='button-div'>
-                                <button><a href={data.githubLink}><div>Link to Github</div></a></button>
-                                <button><a href={data.deployLink}><div>Link to App</div></a></button>
+                                <button><a href={data.githubLink} target="_blank" rel='noopener noreferrer'><div>Link to Github</div></a></button>
+                                <button><a href={data.deployLink} target="_blank" rel='noopener noreferrer'><div>Link to App</div></a></button>
                                 </div>
                             </div>
                         </div>

@@ -25,20 +25,20 @@ export default function Contact(){
                     <div className='form-items'>
                         <div>
                             <label htmlFor='name'>Name:</label>
-                            <input id='name' type='text'/>
+                            <input id='name' type='text' required/>
                         </div>
                         <div>
                             <label htmlFor='email'>Email:</label>
-                            <input id='email' type='text'/>
+                            <input id='email' type='text' required/>
                         </div>
                         <div>
                             <label htmlFor='subject'>Subject:</label>
-                            <input id='subject' type='text'/>
+                            <input id='subject' type='text' required/>
                         </div>
                     </div>
                     <div className='form-items'>
                         <label htmlFor='message'>Message:</label>
-                        <textarea name='message' id='message'/>
+                        <textarea name='message' id='message' required/>
                     </div>
                 </div>
                 <input type='submit' value='SUBMIT'/>

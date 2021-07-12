@@ -1,6 +1,25 @@
 # Portfolio
 
-To view the deployed site: **Link to be Added Once Deployed**
+To view the deployed site: https://trieule.netlify.app/
+
+Programs Used:
+- HTML
+- CSS
+- BootStrap
+- React.js
+
+## About Me
+Hi! I'm Trieu, a civil engineer turn software engineer. As a civil engineer, I enjoy solving problems in the most unorthodox way and creating projects that the general public uses everyday. During my time in project management, I became very passionate about technology more specifically, artificial intelligence in construction. And on May 2021, I made a decision to study software engineering from a coding bootcamp - General Assembly - in hope to make a bigger impact on society.
+
+I enjoy working with React and JavaScript! 
+
+### How to reach me! 
+- Email: trieule50@gmail.com
+- [Linkedin](https://www.linkedin.com/in/trieule1/)
+
+## Deployed Projects
+- [Cook Assistant](https://cook-assistant.netlify.app/): is a working, interactive, React application that recieved data from Edamam, the third-party API. The app allows users to find a recipe that fits their dietary needs and search for any key ingredient that the user wants in the recipe.
+- [Frantic Engineer](https://trieule50.github.io/frantic-engineer-project1/): was inspired by snake and my previous career. Frantic Engineer is about an engineer who is getting ready to bid on a project. However, in order to submit the bid on time, all the proposal sheets will need to be collected.
 
 <!-- # Getting Started with Create React App
 

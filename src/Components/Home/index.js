@@ -1,5 +1,5 @@
 import PortfolioImage from '../Home/Portfolio.png.001.png';
-import Trieu from '../Home/TL.png';
+import Trieu from '../Home/TLCover.png';
 
 export default function Home(){
     return(

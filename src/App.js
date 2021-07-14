@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import './App.css';
 
 import Navigation from './Components/Nav';
+// import Footer from './Components/Footer';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
@@ -20,7 +21,6 @@ function App() {
         <Route path='/contact' exact render={()=><Contact/>}/>
         <Route path='/' exact render={()=><Home/>}/>
       </main>
-      <footer><p>&copy;2021, Trieu Le</p></footer>
     </div>
   );
 }

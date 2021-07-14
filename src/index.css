@@ -12,7 +12,7 @@ a{
 }
 
 .about{
-  background-color: var(--secondary-light);
+  background-color: #54AFBC;
   text-align: center;
   width: 100%;
   height: 100vh;
@@ -50,7 +50,7 @@ button:hover {
 }
 
 .contactMe{
-  background-color: #AAABB8;
+  background-color: rgb(243, 237, 237);
   height: 100vh;
   text-align: center ;
 }
@@ -158,7 +158,11 @@ label{
 }
 
 Nav{
-  background-color: #12151b;
+  background-color: var(--primary);
+}
+
+header{
+  background-color: #54AFBC;
 }
 
 .navTitle{
@@ -167,7 +171,7 @@ Nav{
 }
 
 p{
-  width: 100vh;
+  width: 55vw;
   margin: auto;
   color: white;
   font-size: 1.25em;
@@ -182,10 +186,10 @@ p{
   color:black;
 }
 
-.portfolio{
-  background-color: #29648A;
-  /* height: 100vh; */
-}
+/* .portfolio{
+  background-color: rgb(248, 148, 144);
+ 
+} */
 
 .portfolio-image{
   height: 10rem;
@@ -226,13 +230,14 @@ p{
 }
 
 span{
-  overflow: hidden; 
-  white-space: nowrap;
-  border-right: white .1em solid;
+  /* overflow: hidden;  */
+  /* white-space: nowrap; */
+  /* border-right: white .1em solid; */
   letter-spacing: .1em;
-  animation: typing 5s steps(40, end),
-  blink-caret .75s step-end infinite;
-  max-width: fit-content;
+  color: black;
+  /* animation: typing 5s steps(40, end),
+  blink-caret .75s step-end infinite; */
+  /* max-width: fit-content; */
 }
 
 .resume{
@@ -256,7 +261,7 @@ span{
   opacity: 1;
 }
 
-@keyframes typing{
+/* @keyframes typing{
   from { width: 0}
   to { width: 100% }
 }
@@ -264,7 +269,7 @@ span{
 @keyframes blink-caret {
   from, to { border-color: white }
   50% { border-color: white}
-}
+} */
 
 @media (min-width: 600px){
   a{
@@ -272,6 +277,7 @@ span{
   }
   .landingTitle{
     font-size: 4rem;
+    font-weight: bold;
   }
   .favicon{
     height: 2.5em;

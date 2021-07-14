@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import { Navbar } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
-import logo from '../Nav/apple-touch-icon.png';
+import logo from '../Nav/apple-touch-icon2.png';
 
 export default function Navigation(){
     return(
-        <Navbar className="nav" collapseOnSelect variant="dark" expand="md">
+        <Navbar className="nav" bg='dark' expand="md">
         <Navbar.Brand as={Link} to="/">
             <a href={'/'}><img src={logo} className='favicon' alt='logo'/></a>
         </Navbar.Brand>
